@@ -1,3 +1,5 @@
+ruby '3.3.5'
+
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -16,6 +18,10 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
+
+gem "bootstrap", "~> 5.2"
+gem "simple_form"
+gem "sassc-rails"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
